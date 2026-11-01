@@ -2409,6 +2409,10 @@ function renderValuationCard(cardId, weekDate, headline, title, data) {
   const saved = loadSavedValuation(weekDate, headline);
   const merged = saved ? { ...data, ...saved.values } : data;
   const dealType = merged['Deal Type'] || '';
+  // MD 행 `| Headline Multiple | EV/Sales |` 가 있으면 EBITDA가 무의미한 딜(적자·0 근접)로 보고
+  // hero 칩과 상단 요약표의 EV/EBITDA 자리를 EV/Sales로 바꿔 표시 (딜별 opt-in).
+  const salesHead = /ev\s*\/\s*sales/i.test(merged['Headline Multiple'] || '');
+  const headLabel = salesHead ? 'EV / Sales' : 'EV / EBITDA';
   const renderInput = (f) => {
     const v = merged[f.key] !== undefined ? merged[f.key] : '';
     const ph = f.ph ? ` placeholder="${escapeHtml(f.ph)}"` : '';
@@ -2437,7 +2441,7 @@ function renderValuationCard(cardId, weekDate, headline, title, data) {
     ? `<span class="valuation-saved-badge" title="${escapeHtml(saved.savedAt)} 저장">📌 저장됨</span>`
     : '';
   return `
-    <div class="valuation-card" id="${cardId}" data-week="${escapeHtml(weekDate)}" data-headline="${escapeHtml(headline)}">
+    <div class="valuation-card" id="${cardId}" data-week="${escapeHtml(weekDate)}" data-headline="${escapeHtml(headline)}"${salesHead ? ' data-head-mult="sales"' : ''}>
       <div class="valuation-head">
         <span class="valuation-title">💹 ${escapeHtml(titleStr)}</span>
         ${dealType ? `<span class="valuation-dealtype">${escapeHtml(dealType)}</span>` : ''}
@@ -2448,7 +2452,7 @@ function renderValuationCard(cardId, weekDate, headline, title, data) {
       <div class="val-summary">
         <div class="val-hero-row">
           <div class="val-hero val-hero-evebitda">
-            <div class="val-hero-label">EV / EBITDA</div>
+            <div class="val-hero-label">${headLabel}</div>
             <div class="val-hero-value" data-out="EV_EBITDA_hero">—</div>
           </div>
           <div class="val-hero val-hero-per">
@@ -2462,7 +2466,7 @@ function renderValuationCard(cardId, weekDate, headline, title, data) {
         </div>
         <table class="val-summary-table val-summary-top">
           <thead>
-            <tr><th>매출액</th><th>EV</th><th>EBITDA</th><th>EV/EBITDA</th></tr>
+            <tr><th>매출액</th><th>EV</th><th>EBITDA</th><th>${headLabel.replace(/ /g, '')}</th></tr>
           </thead>
           <tbody>
             <tr>
@@ -2833,14 +2837,15 @@ window.computeValuation = function (cardId) {
     const hero = el.closest('.val-hero');
     if (hero) hero.classList.toggle('val-hero-empty', txt === '—');
   };
-  setHero('EV_EBITDA_hero', evEbitda);
+  const headMult = card.dataset.headMult === 'sales' ? evSales : evEbitda;
+  setHero('EV_EBITDA_hero', headMult);
   setHero('PER_hero',       per);
   setHero('PBR_hero',       pbr);
 
   setOut('Revenue_sum',    fmtUnit(revenue));
   setOut('EV_sum',         fmtUnit(ev));
   setOut('EBITDA_sum',     fmtUnit(ebitda));
-  setOut('EV_EBITDA_sum',  fmtMultiple(evEbitda));
+  setOut('EV_EBITDA_sum',  fmtMultiple(headMult));
   setOut('Equity_sum',     fmtUnit(equity));
   setOut('Earnings_sum',   fmtUnit(netIncome));
   setOut('BookEquity_sum', fmtUnit(bookEquity));
