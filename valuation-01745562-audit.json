@@ -1,0 +1,39 @@
+﻿{
+    "company":  "AeroForge",
+    "corp_code":  "01745562",
+    "source":  "DART raw document",
+    "report_nm":  "감사보고서 (2025.12)",
+    "rcept_no":  "20260408001040",
+    "rcept_dt":  "20260408",
+    "fiscal_period":  "FY2025",
+    "unit":  "100M KRW",
+    "pnl":  {
+                "revenue":  null,
+                "operating_income":  null,
+                "depreciation":  1,
+                "amortisation":  0,
+                "da_total":  1,
+                "ebitda":  null,
+                "net_income":  187
+            },
+    "equity_total":  null,
+    "liabilities":  null,
+    "assets":  null,
+    "debt":  {
+                 "st_borrowings":  null,
+                 "current_lt_borrowings":  null,
+                 "lt_borrowings":  null,
+                 "bonds":  null,
+                 "current_lease":  null,
+                 "lease":  null
+             },
+    "cash":  {
+                 "cash_and_equivalents":  53,
+                 "st_financial_invest":  null
+             },
+    "derived":  {
+                    "total_debt":  null,
+                    "total_cash":  53,
+                    "net_debt":  null
+                }
+}

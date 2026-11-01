@@ -1,0 +1,39 @@
+﻿{
+    "company":  "Tmap",
+    "corp_code":  "01523386",
+    "source":  "DART raw document",
+    "report_nm":  "연결감사보고서 (2025.12)",
+    "rcept_no":  "20260403002422",
+    "rcept_dt":  "20260403",
+    "fiscal_period":  "FY2025",
+    "unit":  "100M KRW",
+    "pnl":  {
+                "revenue":  2835,
+                "operating_income":  -141,
+                "depreciation":  0,
+                "amortisation":  0,
+                "da_total":  0,
+                "ebitda":  -141,
+                "net_income":  -774
+            },
+    "equity_total":  4630,
+    "liabilities":  2352,
+    "assets":  6982,
+    "debt":  {
+                 "st_borrowings":  121,
+                 "current_lt_borrowings":  null,
+                 "lt_borrowings":  null,
+                 "bonds":  null,
+                 "current_lease":  null,
+                 "lease":  36
+             },
+    "cash":  {
+                 "cash_and_equivalents":  3282,
+                 "st_financial_invest":  48
+             },
+    "derived":  {
+                    "total_debt":  157,
+                    "total_cash":  3330,
+                    "net_debt":  -3173
+                }
+}
