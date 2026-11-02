@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-01T05:57:20Z",
-    "updatedKr":  "2026-11-01 14:57:20",
+    "updated":  "2026-11-02T22:02:45Z",
+    "updatedKr":  "2026-11-03 07:02:45",
     "frozenDow":  "Sunday",
     "reviewRange":  "2026-10-26~2026-10-30",
     "previewRange":  "2026-11-02~2026-11-06",
@@ -107,10 +107,10 @@
                          "importance":  3,
                          "indicator":  "ISM Manufacturing PMI",
                          "period":  "Oct",
-                         "actual":  "",
-                         "forecast":  "54.7",
+                         "actual":  "55.5",
+                         "forecast":  "54.5",
                          "previous":  "54.5",
-                         "type":  "preview"
+                         "type":  "review"
                      },
                      {
                          "id":  "559266",
