@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-02T23:15:33Z",
-    "updatedKr":  "2026-11-03 08:15:33",
+    "updated":  "2026-11-03T22:00:33Z",
+    "updatedKr":  "2026-11-04 07:00:33",
     "countries":  [
                       "5",
                       "35",
@@ -125,10 +125,10 @@
                        "importance":  3,
                        "indicator":  "JOLTS Job Openings",
                        "period":  "Sep",
-                       "actual":  "",
-                       "forecast":  "7.110M",
+                       "actual":  "7.523M",
+                       "forecast":  "7.150M",
                        "previous":  "7.079M",
-                       "type":  "preview"
+                       "type":  "review"
                    },
                    {
                        "id":  "559333",
