@@ -2141,10 +2141,10 @@
                 },
                 {
                     "month":  "2026-10",
-                    "value":  5640,
+                    "value":  5630,
                     "weight":  null,
                     "unitPrice":  null,
-                    "expDlrRaw":  5640000000,
+                    "expDlrRaw":  5630000000,
                     "impDlrRaw":  null,
                     "impWgtRaw":  null,
                     "prov":  true
@@ -4285,6 +4285,16 @@
                      "impDlrRaw":  null,
                      "impWgtRaw":  null,
                      "prov":  true
+                 },
+                 {
+                     "month":  "2026-10",
+                     "value":  2970,
+                     "weight":  null,
+                     "unitPrice":  null,
+                     "expDlrRaw":  2970000000,
+                     "impDlrRaw":  null,
+                     "impWgtRaw":  null,
+                     "prov":  true
                  }
              ],
     "dram":  [
@@ -6419,6 +6429,16 @@
                      "weight":  233546,
                      "unitPrice":  71836,
                      "expDlrRaw":  16777020000,
+                     "impDlrRaw":  null,
+                     "impWgtRaw":  null,
+                     "prov":  true
+                 },
+                 {
+                     "month":  "2026-10",
+                     "value":  18000,
+                     "weight":  null,
+                     "unitPrice":  null,
+                     "expDlrRaw":  18000000000,
                      "impDlrRaw":  null,
                      "impWgtRaw":  null,
                      "prov":  true
@@ -8559,7 +8579,17 @@
                     "impDlrRaw":  null,
                     "impWgtRaw":  null,
                     "prov":  true
+                },
+                {
+                    "month":  "2026-10",
+                    "value":  12260,
+                    "weight":  null,
+                    "unitPrice":  null,
+                    "expDlrRaw":  12260000000,
+                    "impDlrRaw":  null,
+                    "impWgtRaw":  null,
+                    "prov":  true
                 }
             ],
-    "provisionalMonth":  "2026-10"
+    "provisionalMonth":  "2026-11"
 }
