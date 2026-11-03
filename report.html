@@ -518,8 +518,8 @@ function parseReport(md) {
       if (/화장품/.test(fl)) sector = '화장품';
       if (/통신/.test(fl)) sector = '통신';
       report.industry.push(...parseIndustrySection(sub, sector));
-    } else if (/AI[\s\/]*로보틱스/.test(fl)) {
-      report.industry.push(...parseIndustrySection(sub, 'AI/로보틱스'));
+    } else if (/AI[\s\/·]*(로보틱스|인프라)/.test(fl)) {   // 과거 리포트의 'AI/로보틱스' 표기도 AI/인프라로 표시
+      report.industry.push(...parseIndustrySection(sub, 'AI/인프라'));
     } else if (/전력/.test(fl) && !/기업/.test(fl)) {
       report.industry.push(...parseIndustrySection(sub, '전력'));
     } else if (/대체투자/.test(fl)) {
@@ -736,7 +736,7 @@ function renderMeta(meta) {
   if (tm) badges.push('<span class="count-badge total">리포트 '+tm[1]+'건</span>');
   const sectors = [
     {re:/반도체\s*(\d+)/,cls:'semi',name:'반도체'},{re:/화장품\s*(\d+)/,cls:'cosmetics',name:'화장품'},
-    {re:/통신\s*(\d+)/,cls:'telecom',name:'통신'},{re:/AI[\s\/]*로보틱스\s*(\d+)/,cls:'airobot',name:'AI/로보틱스'},
+    {re:/AI[\s\/·]*(?:로보틱스|인프라)\s*(\d+)/,cls:'airobot',name:'AI/인프라'},
     {re:/전력\s*(\d+)/,cls:'power',name:'전력'},{re:/대체투자\s*(\d+)/,cls:'altinv',name:'대체투자'},{re:/미용의료\s*(\d+)/,cls:'beautymed',name:'미용의료'},{re:/매크로[+\s]?(?:전략)?\s*(\d+)/,cls:'macro',name:'매크로'},
     {re:/글로벌\s*(\d+)/,cls:'global',name:'글로벌'},{re:/기업[^0-9]*(\d+)/,cls:'company',name:'기업'},
   ];
@@ -751,7 +751,7 @@ function renderIndustry(r) {
   for (const item of r.industry) { if (!bySector[item.sector]) bySector[item.sector]=[]; bySector[item.sector].push(item); }
   let html = '';
   for (const [sector, items] of Object.entries(bySector)) {
-    const tc = sector==='반도체'?'semi':sector==='화장품'?'cosmetics':sector==='AI/로보틱스'?'airobot':sector==='전력'?'power':sector==='대체투자'?'altinv':sector==='미용의료'?'beautymed':'telecom';
+    const tc = sector==='반도체'?'semi':sector==='화장품'?'cosmetics':sector==='AI/인프라'?'airobot':sector==='전력'?'power':sector==='대체투자'?'altinv':sector==='미용의료'?'beautymed':'telecom';
     html += '<div class="section-card"><div class="card-header" onclick="toggleCard(this)">';
     html += '<span class="sector-tag '+tc+'">'+esc(sector)+'</span>';
     html += '<span class="card-title">'+items.length+'건</span><span class="toggle-icon">&#9660;</span></div>';
