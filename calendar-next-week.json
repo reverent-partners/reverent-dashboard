@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-04T22:00:32Z",
-    "updatedKr":  "2026-11-05 07:00:32",
+    "updated":  "2026-11-05T22:00:25Z",
+    "updatedKr":  "2026-11-06 07:00:25",
     "countries":  [
                       "5",
                       "35",
@@ -50,10 +50,10 @@
                        "importance":  3,
                        "indicator":  "ADP Nonfarm Employment Change",
                        "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "68K",
+                       "actual":  "86K",
+                       "forecast":  "67K",
                        "previous":  "90K",
-                       "type":  "preview"
+                       "type":  "review"
                    },
                    {
                        "id":  "559345",
@@ -65,10 +65,10 @@
                        "importance":  3,
                        "indicator":  "ISM Non-Manufacturing PMI",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "54.5",
                        "forecast":  "54.8",
                        "previous":  "54.9",
-                       "type":  "preview"
+                       "type":  "review"
                    },
                    {
                        "id":  "559494",

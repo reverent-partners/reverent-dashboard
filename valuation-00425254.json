@@ -1,0 +1,31 @@
+{
+    "company":  "Nowcos",
+    "corp_code":  "00425254",
+    "fiscal_period":  "FY2025 Annual (Consolidated)",
+    "unit":  "100M KRW",
+    "fetched_at":  "2026-09-27 12:59:27",
+    "pnl":  {
+                "revenue":  695,
+                "operating_income":  31,
+                "depreciation":  null,
+                "ebitda":  null,
+                "net_income":  40
+            },
+    "equity_total":  221,
+    "debt":  {
+                 "st_borrowings":  30,
+                 "current_lt_borrowings":  18,
+                 "current_lease":  5,
+                 "lt_borrowings":  21,
+                 "nc_lease":  6
+             },
+    "cash":  {
+                 "cash_and_equivalents":  60,
+                 "st_financial_invest":  null
+             },
+    "derived":  {
+                    "total_debt":  80,
+                    "total_cash":  60,
+                    "net_debt":  20
+                }
+}
