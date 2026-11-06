@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-06T07:12:20Z",
-    "updatedKr":  "2026-11-06 16:12:20",
+    "updated":  "2026-11-06T07:31:04Z",
+    "updatedKr":  "2026-11-06 16:31:04",
     "source":  "38.co.kr new-listings (o=nw) + Naver Finance (market cap)",
     "companies":  [
                       {
@@ -85,12 +85,12 @@
                           "code":  "495910",
                           "detailNo":  2332,
                           "ipoPrice":  12400,
-                          "curPrice":  6500,
+                          "curPrice":  6550,
                           "openPrice":  15890,
                           "todayChg":  -0.1311,
-                          "curVsIpo":  -0.4758,
+                          "curVsIpo":  -0.4718,
                           "openVsIpo":  0.2815,
-                          "mcap":  906,
+                          "mcap":  913,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -100,12 +100,12 @@
                           "code":  "0147B0",
                           "detailNo":  2335,
                           "ipoPrice":  19000,
-                          "curPrice":  10810,
+                          "curPrice":  10930,
                           "openPrice":  19000,
                           "todayChg":  0.067099999999999993,
-                          "curVsIpo":  -0.4311,
+                          "curVsIpo":  -0.4247,
                           "openVsIpo":  0,
-                          "mcap":  1561,
+                          "mcap":  1592,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -115,12 +115,12 @@
                           "code":  "359410",
                           "detailNo":  2333,
                           "ipoPrice":  17000,
-                          "curPrice":  10000,
+                          "curPrice":  9950,
                           "openPrice":  21350,
                           "todayChg":  -0.10619999999999999,
-                          "curVsIpo":  -0.4118,
+                          "curVsIpo":  -0.4147,
                           "openVsIpo":  0.2559,
-                          "mcap":  906,
+                          "mcap":  898,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -130,12 +130,12 @@
                           "code":  "420610",
                           "detailNo":  2328,
                           "ipoPrice":  9000,
-                          "curPrice":  10860,
+                          "curPrice":  10620,
                           "openPrice":  19290,
                           "todayChg":  -0.1543,
-                          "curVsIpo":  0.2067,
+                          "curVsIpo":  0.18,
                           "openVsIpo":  1.1433,
-                          "mcap":  1236,
+                          "mcap":  1204,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -145,12 +145,12 @@
                           "code":  "439270",
                           "detailNo":  2323,
                           "ipoPrice":  15000,
-                          "curPrice":  4925,
+                          "curPrice":  4865,
                           "openPrice":  12000,
                           "todayChg":  -0.10529999999999999,
-                          "curVsIpo":  -0.6717,
+                          "curVsIpo":  -0.6757,
                           "openVsIpo":  -0.2,
-                          "mcap":  647,
+                          "mcap":  639,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -160,12 +160,12 @@
                           "code":  "0053F0",
                           "detailNo":  2322,
                           "ipoPrice":  15300,
-                          "curPrice":  12810,
+                          "curPrice":  12880,
                           "openPrice":  30350,
                           "todayChg":  -0.17550000000000002,
-                          "curVsIpo":  -0.1627,
+                          "curVsIpo":  -0.1582,
                           "openVsIpo":  0.9837,
-                          "mcap":  1478,
+                          "mcap":  1463,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -175,12 +175,12 @@
                           "code":  "0015M0",
                           "detailNo":  2326,
                           "ipoPrice":  18500,
-                          "curPrice":  12710,
+                          "curPrice":  12580,
                           "openPrice":  32350,
                           "todayChg":  -0.023799999999999998,
-                          "curVsIpo":  -0.313,
+                          "curVsIpo":  -0.32,
                           "openVsIpo":  0.7486,
-                          "mcap":  1875,
+                          "mcap":  1872,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -190,12 +190,12 @@
                           "code":  "0013Y0",
                           "detailNo":  2324,
                           "ipoPrice":  7800,
-                          "curPrice":  6260,
+                          "curPrice":  6300,
                           "openPrice":  16000,
                           "todayChg":  -0.20600000000000002,
-                          "curVsIpo":  -0.1974,
+                          "curVsIpo":  -0.1923,
                           "openVsIpo":  1.0513,
-                          "mcap":  1700,
+                          "mcap":  1716,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -205,12 +205,12 @@
                           "code":  "0158S0",
                           "detailNo":  2316,
                           "ipoPrice":  90500,
-                          "curPrice":  70400,
+                          "curPrice":  70900,
                           "openPrice":  75700,
                           "todayChg":  0.1891,
-                          "curVsIpo":  -0.2221,
+                          "curVsIpo":  -0.2166,
                           "openVsIpo":  -0.1635,
-                          "mcap":  7812,
+                          "mcap":  7879,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -220,12 +220,12 @@
                           "code":  "250030",
                           "detailNo":  2320,
                           "ipoPrice":  23500,
-                          "curPrice":  8810,
+                          "curPrice":  8740,
                           "openPrice":  24000,
                           "todayChg":  -0.11019999999999999,
-                          "curVsIpo":  -0.6251,
+                          "curVsIpo":  -0.6281,
                           "openVsIpo":  0.0213,
-                          "mcap":  334,
+                          "mcap":  326,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -235,12 +235,12 @@
                           "code":  "179880",
                           "detailNo":  2315,
                           "ipoPrice":  12300,
-                          "curPrice":  11480,
+                          "curPrice":  11470,
                           "openPrice":  27400,
                           "todayChg":  0.0052,
-                          "curVsIpo":  -0.0667,
+                          "curVsIpo":  -0.0675,
                           "openVsIpo":  1.2276,
-                          "mcap":  1457,
+                          "mcap":  1441,
                           "mcapDate":  "2026-11-06"
                       },
                       {
@@ -250,12 +250,12 @@
                           "code":  "468670",
                           "detailNo":  2307,
                           "ipoPrice":  19500,
-                          "curPrice":  11200,
+                          "curPrice":  11090,
                           "openPrice":  61800,
                           "todayChg":  -0.052199999999999996,
-                          "curVsIpo":  -0.4256,
+                          "curVsIpo":  -0.4313,
                           "openVsIpo":  2.1692,
-                          "mcap":  1273,
+                          "mcap":  1260,
                           "mcapDate":  "2026-11-06"
                       }
                   ]
