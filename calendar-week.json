@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-10T22:02:14Z",
-    "updatedKr":  "2026-11-11 07:02:14",
+    "updated":  "2026-11-10T23:16:32Z",
+    "updatedKr":  "2026-11-11 08:16:32",
     "countries":  [
                       "5",
                       "35",
@@ -95,9 +95,9 @@
                        "importance":  3,
                        "indicator":  "NFIB Business Optimism Index",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "97.8",
                        "forecast":  "97.7",
-                       "previous":  "97.6",
+                       "previous":  "97.9",
                        "type":  "review"
                    },
                    {
@@ -155,9 +155,9 @@
                        "importance":  3,
                        "indicator":  "Unemployment Rate",
                        "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "",
-                       "previous":  "2.8%",
+                       "actual":  "2.5%",
+                       "forecast":  "2.8%",
+                       "previous":  "2.6%",
                        "type":  "review"
                    },
                    {
