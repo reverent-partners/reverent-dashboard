@@ -501,7 +501,7 @@ function updateClock() {
 // ─── Init ────────────────────────────────────────────────
 // ─── Weekly Calendar View ─────────────────────────────────
 let weeklyCache = null;
-let weeklyFilters = { importance: 2, country: 'ALL' };
+let weeklyFilters = { importance: 3, country: 'ALL' };
 
 const KR_WEEKDAY = ['일','월','화','수','목','금','토'];
 
