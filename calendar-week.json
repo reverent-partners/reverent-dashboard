@@ -1,4 +1,14 @@
 {
+    "updated":  "2026-11-10T01:05:45Z",
+    "updatedKr":  "2026-11-10 10:05:45",
+    "countries":  [
+                      "5",
+                      "35",
+                      "11",
+                      "72"
+                  ],
+    "tab":  "custom 2026-11-09~2026-11-15",
+    "source":  "frozen-fallback",
     "events":  [
                    {
                        "id":  "us-cpi-yoy-oct",
@@ -136,36 +146,6 @@
                        "type":  "review"
                    },
                    {
-                       "id":  "jp-ppi-yoy-oct",
-                       "datetime":  "2026/11/12 08:50:00",
-                       "date":  "11/12",
-                       "time":  "08:50",
-                       "flagKey":  "Japan",
-                       "currency":  "JPY",
-                       "importance":  3,
-                       "indicator":  "PPI YoY",
-                       "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "6.5%",
-                       "previous":  "6.7%",
-                       "type":  "review"
-                   },
-                   {
-                       "id":  "jp-ecowatcher-oct",
-                       "datetime":  "2026/11/10 14:00:00",
-                       "date":  "11/10",
-                       "time":  "14:00",
-                       "flagKey":  "Japan",
-                       "currency":  "JPY",
-                       "importance":  3,
-                       "indicator":  "Eco Watchers Survey Current",
-                       "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "47.2",
-                       "previous":  "46.8",
-                       "type":  "review"
-                   },
-                   {
                        "id":  "kr-unemployment-oct",
                        "datetime":  "2026/11/11 08:00:00",
                        "date":  "11/11",
@@ -195,8 +175,5 @@
                        "previous":  "37.0%",
                        "type":  "review"
                    }
-               ],
-    "source":  "trading-economics-manual",
-    "range":  "2026-11-09~2026-11-14",
-    "updated":  "2026-11-10T00:54:27Z"
+               ]
 }
