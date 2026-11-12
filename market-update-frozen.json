@@ -1,4 +1,4 @@
-﻿{
+{
     "reviewRange":  "2026-11-09~2026-11-13",
     "previewRange":  "2026-11-16~2026-11-20",
     "thisWeek":  [
@@ -72,7 +72,7 @@
                          "importance":  3,
                          "indicator":  "Initial Jobless Claims",
                          "period":  "Nov/07",
-                         "actual":  "",
+                         "actual":  "200K",
                          "forecast":  "194K",
                          "previous":  "191K",
                          "type":  "review"
@@ -117,7 +117,7 @@
                          "importance":  3,
                          "indicator":  "Existing Home Sales",
                          "period":  "Oct",
-                         "actual":  "",
+                         "actual":  "3.75M",
                          "forecast":  "3.89M",
                          "previous":  "4.0M",
                          "type":  "review"
@@ -395,7 +395,7 @@
                          "type":  "preview"
                      }
                  ],
-    "updated":  "2026-11-12T00:04:35Z",
-    "updatedKr":  "2026-11-12 09:04:35",
+    "updated":  "2026-11-12T22:00:37Z",
+    "updatedKr":  "2026-11-13 07:00:37",
     "frozenDow":  "Tuesday"
 }
