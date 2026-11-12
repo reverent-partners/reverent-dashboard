@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-12T22:00:36Z",
-    "updatedKr":  "2026-11-13 07:00:36",
+    "updated":  "2026-11-12T23:13:08Z",
+    "updatedKr":  "2026-11-13 08:13:08",
     "countries":  [
                       "5",
                       "35",
@@ -80,7 +80,7 @@
                        "importance":  3,
                        "indicator":  "Initial Jobless Claims",
                        "period":  "Nov/07",
-                       "actual":  "",
+                       "actual":  "200K",
                        "forecast":  "194K",
                        "previous":  "191K",
                        "type":  "review"
@@ -125,7 +125,7 @@
                        "importance":  3,
                        "indicator":  "Existing Home Sales",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "3.75M",
                        "forecast":  "3.89M",
                        "previous":  "4.0M",
                        "type":  "review"
@@ -170,7 +170,7 @@
                        "importance":  3,
                        "indicator":  "Export Prices YoY",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "36.7%",
                        "forecast":  "",
                        "previous":  "37.0%",
                        "type":  "review"
