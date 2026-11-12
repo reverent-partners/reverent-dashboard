@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-11T00:00:25Z",
-    "updatedKr":  "2026-11-11 09:00:25",
+    "updated":  "2026-11-12T00:06:33Z",
+    "updatedKr":  "2026-11-12 09:06:33",
     "countries":  [
                       "5",
                       "35",
@@ -81,7 +81,7 @@
                        "indicator":  "Initial Jobless Claims",
                        "period":  "Nov/07",
                        "actual":  "",
-                       "forecast":  "195K",
+                       "forecast":  "194K",
                        "previous":  "191K",
                        "type":  "review"
                    },
@@ -126,7 +126,7 @@
                        "indicator":  "Existing Home Sales",
                        "period":  "Oct",
                        "actual":  "",
-                       "forecast":  "3.98M",
+                       "forecast":  "3.89M",
                        "previous":  "4.0M",
                        "type":  "review"
                    },
