@@ -1,31 +1,31 @@
 {
     "company":  "SKSiltron",
     "corp_code":  "00138020",
-    "fiscal_period":  "FY2025 Annual (Consolidated)",
+    "fiscal_period":  "LTM 2Q26 (FY2025 + 2Q(H1 cum)2026 - 2Q(H1 cum)2025)",
     "unit":  "100M KRW",
-    "fetched_at":  "2026-07-31 16:26:52",
+    "fetched_at":  "2026-11-13 15:54:16",
     "pnl":  {
-                "revenue":  20575,
-                "operating_income":  1931,
+                "revenue":  20798,
+                "operating_income":  1426,
                 "depreciation":  2414,
-                "ebitda":  4345,
-                "net_income":  -2929
+                "ebitda":  3840,
+                "net_income":  -3661
             },
-    "equity_total":  19334,
+    "equity_total":  18334,
     "debt":  {
-                 "st_borrowings":  4470,
+                 "st_borrowings":  11687,
                  "current_lt_borrowings":  null,
-                 "current_lease":  126,
+                 "current_lease":  99,
                  "lt_borrowings":  null,
-                 "nc_lease":  842
+                 "nc_lease":  807
              },
     "cash":  {
-                 "cash_and_equivalents":  1957,
-                 "st_financial_invest":  878
+                 "cash_and_equivalents":  8178,
+                 "st_financial_invest":  886
              },
     "derived":  {
-                    "total_debt":  5438,
-                    "total_cash":  2835,
-                    "net_debt":  2603
+                    "total_debt":  12593,
+                    "total_cash":  9064,
+                    "net_debt":  3529
                 }
 }

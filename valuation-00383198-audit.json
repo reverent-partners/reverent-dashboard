@@ -1,0 +1,39 @@
+﻿{
+    "company":  "AXAGI",
+    "corp_code":  "00383198",
+    "source":  "DART raw document",
+    "report_nm":  "감사보고서 (2025.12)",
+    "rcept_no":  "20260331003812",
+    "rcept_dt":  "20260331",
+    "fiscal_period":  "FY2025",
+    "unit":  "100M KRW",
+    "pnl":  {
+                "revenue":  null,
+                "operating_income":  null,
+                "depreciation":  0,
+                "amortisation":  37,
+                "da_total":  37,
+                "ebitda":  null,
+                "net_income":  19
+            },
+    "equity_total":  3183,
+    "liabilities":  5738,
+    "assets":  8921,
+    "debt":  {
+                 "st_borrowings":  null,
+                 "current_lt_borrowings":  null,
+                 "lt_borrowings":  null,
+                 "bonds":  null,
+                 "current_lease":  null,
+                 "lease":  0
+             },
+    "cash":  {
+                 "cash_and_equivalents":  80,
+                 "st_financial_invest":  null
+             },
+    "derived":  {
+                    "total_debt":  0,
+                    "total_cash":  80,
+                    "net_debt":  -80
+                }
+}
