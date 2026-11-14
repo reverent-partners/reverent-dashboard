@@ -119,7 +119,7 @@
                          "period":  "Oct",
                          "actual":  "3.75M",
                          "forecast":  "3.89M",
-                         "previous":  "4.0M",
+                         "previous":  "3.97M",
                          "type":  "review"
                      },
                      {
@@ -225,7 +225,7 @@
                          "indicator":  "Retail Sales MoM",
                          "period":  "Oct",
                          "actual":  "",
-                         "forecast":  "0.6%",
+                         "forecast":  "0.0%",
                          "previous":  "0.8%",
                          "type":  "preview"
                      },
@@ -240,7 +240,7 @@
                          "indicator":  "Industrial Production MoM",
                          "period":  "Oct",
                          "actual":  "",
-                         "forecast":  "0.6%",
+                         "forecast":  "0.1%",
                          "previous":  "0.7%",
                          "type":  "preview"
                      },
@@ -256,7 +256,7 @@
                          "period":  "Oct",
                          "actual":  "",
                          "forecast":  "",
-                         "previous":  "¥-536.6B",
+                         "previous":  "-556.5B",
                          "type":  "preview"
                      },
                      {
@@ -285,7 +285,7 @@
                          "indicator":  "Housing Starts",
                          "period":  "Oct",
                          "actual":  "",
-                         "forecast":  "1.20M",
+                         "forecast":  "1.230M",
                          "previous":  "1.221M",
                          "type":  "preview"
                      },
@@ -316,7 +316,7 @@
                          "period":  "Nov/14",
                          "actual":  "",
                          "forecast":  "",
-                         "previous":  "",
+                         "previous":  "200K",
                          "type":  "preview"
                      },
                      {
@@ -391,11 +391,11 @@
                          "period":  "Nov",
                          "actual":  "",
                          "forecast":  "51.0",
-                         "previous":  "48.0",
+                         "previous":  "51.0",
                          "type":  "preview"
                      }
                  ],
-    "updated":  "2026-11-12T22:00:37Z",
-    "updatedKr":  "2026-11-13 07:00:37",
+    "updated":  "2026-11-14T12:14:22Z",
+    "updatedKr":  "2026-11-14 21:14:22",
     "frozenDow":  "Tuesday"
 }
