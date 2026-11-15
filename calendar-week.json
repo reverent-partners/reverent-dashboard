@@ -830,7 +830,7 @@
                        "importance":  3,
                        "indicator":  "PPI YoY",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "6.5%",
                        "forecast":  "6.6%",
                        "previous":  "6.5%",
                        "type":  "review"
@@ -923,6 +923,21 @@
                        "actual":  "463",
                        "forecast":  "",
                        "previous":  "463",
+                       "type":  "review"
+                   },
+                   {
+                       "id":  "us-coreppi-yoy-oct",
+                       "datetime":  "2026/11/13 22:30:00",
+                       "date":  "11/13",
+                       "time":  "22:30",
+                       "flagKey":  "United_States",
+                       "currency":  "USD",
+                       "importance":  3,
+                       "indicator":  "Core PPI YoY",
+                       "period":  "Oct",
+                       "actual":  "5.0%",
+                       "forecast":  "5%",
+                       "previous":  "4.9%",
                        "type":  "review"
                    }
                ]

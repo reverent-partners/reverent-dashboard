@@ -364,16 +364,18 @@ function Get-WeekBounds {
 
     # ── Shared helpers for freeze / Friday update ──
     # 주당 10~16건 (미국+한국+일본). 종전 top-7은 너무 적어 preview가 매번 잘려나갔다.
-    $maxN = 14
+    $maxN = 16
+    # US CPI/PPI/PCE: always keep all 4 (headline+core x MoM+YoY), any importance (user, 2026-11-16)
+    $isInfl4 = { param($e) ($e.flagKey -eq 'United_States') -and ($e.indicator -match '(?i)^(Core\s+)?(CPI|PPI|PCE(\s+Price)?\s+Index|Inflation Rate)\s*\(?(MoM|YoY)\)?$') }
     $pickTop5 = {
         param($events)
         if (-not $events) { return @() }
         # Macro Economy 섹션은 ★★★만 구성한다 (app.js MACRO_MIN_IMPORTANCE = 3).
-        $events = @($events | Where-Object { ($_.importance -as [int]) -ge 3 -and (Test-EventAllowed $_) })
+        $events = @($events | Where-Object { ((($_.importance -as [int]) -ge 3) -or (& $isInfl4 $_)) -and (Test-EventAllowed $_) })
         $filtered = @($events | Where-Object {
             -not (
-                ($_.indicator -match '(?i)PCE.*\(MoM\)') -or
-                ($_.indicator -match '(?i)^(Core\s+)?CPI \(MoM\)$') -or
+                (($_.indicator -match '(?i)PCE.*\(MoM\)') -and -not (& $isInfl4 $_)) -or
+                (($_.indicator -match '(?i)^(Core\s+)?CPI \(MoM\)$') -and -not (& $isInfl4 $_)) -or
                 ($_.indicator -match '(?i)^CPI[,]?\s*(n\.s\.a|s\.a|Index)') -or
                 ($_.indicator -match '(?i)^Cleveland CPI') -or
                 ($_.indicator -match '(?i)Speaks$') -or
@@ -386,6 +388,7 @@ function Get-WeekBounds {
             )
         })
         $pinned = @($filtered | Where-Object {
+            (& $isInfl4 $_) -or
             ($_.indicator -match '(?i)^Nonfarm Payrolls$') -or
             ($_.indicator -match '(?i)^(Core\s+)?PCE.*Price.*Index.*\(YoY\)$') -or
             ($_.indicator -match '(?i)^(Core\s+)?CPI \(YoY\)$') -or
@@ -406,6 +409,8 @@ function Get-WeekBounds {
         $needed = $maxN - $pinned.Count
         if ($needed -lt 0) { $needed = 0 }
         $picked = @($pinned) + @($remaining | Select-Object -First $needed)
+        # pinned flag lets app.js show inflation MoM rows even when Investing rates them below 3 stars
+        foreach ($pk in $picked) { if (& $isInfl4 $pk) { $pk | Add-Member -NotePropertyName pinned -NotePropertyValue $true -Force } }
         return @($picked | Sort-Object datetime)
     }
     $applyFedRange = {
