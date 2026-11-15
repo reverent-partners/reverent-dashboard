@@ -10,7 +10,7 @@ const CAL_NEXT_WEEK_URL = './calendar-next-week.json';
 const REFRESH_MS   = 60_000;
 const MIN_IMPORTANCE = 2;   // 표시할 최소 importance (1=낮음, 2=중간, 3=높음)
 const MACRO_MIN_IMPORTANCE = 3;   // §3 Market Update — Macro Economy는 ★★★만 노출
-const MACRO_EXCLUDE_COUNTRIES = new Set(["South_Korea", "Europe", "Euro_Zone"]); // Macro Economy: exclude Korea/Europe (weekly calendar keeps them)
+const MACRO_EXCLUDE_COUNTRIES = new Set(["South_Korea", "Europe", "Euro_Zone", "Japan"]); // Macro Economy: exclude Korea/Europe/Japan (weekly calendar keeps them; Japan added 2026-11-16)
 
 // ─── Static deploy mode detection ─────────────────────────
 // On localhost we're running serve.ps1 (full features).
