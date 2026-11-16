@@ -2441,7 +2441,7 @@ function renderValuationCard(cardId, weekDate, headline, title, data) {
     ? `<span class="valuation-saved-badge" title="${escapeHtml(saved.savedAt)} 저장">📌 저장됨</span>`
     : '';
   return `
-    <div class="valuation-card" id="${cardId}" data-week="${escapeHtml(weekDate)}" data-headline="${escapeHtml(headline)}"${salesHead ? ' data-head-mult="sales"' : ''}>
+    <div class="valuation-card" id="${cardId}" data-week="${escapeHtml(weekDate)}" data-headline="${escapeHtml(headline)}"${salesHead ? ' data-head-mult="sales"' : ''}${/신주|유상증자|primary/i.test(dealType) ? ' data-primary="1"' : ''}>
       <div class="valuation-head">
         <span class="valuation-title">💹 ${escapeHtml(titleStr)}</span>
         ${dealType ? `<span class="valuation-dealtype">${escapeHtml(dealType)}</span>` : ''}
@@ -2802,7 +2802,12 @@ window.computeValuation = function (cardId) {
     ? dealValue / (stake / 100)
     : (mktCap !== null ? mktCap : null);
 
-  const ev = (equity !== null && netDebt !== null) ? equity + netDebt
+  // 신주(유상증자) 거래: Deal Value가 회사로 들어가므로 Equity(=Deal/Stake)는 포스트머니.
+  // EV는 유입 현금만큼 순차입을 줄여 계산하고, PBR은 pre/post를 같은 기준끼리 나눈다.
+  const isPrimary = card.dataset.primary === '1' && dealValue !== null;
+  const netDebtAdj = (isPrimary && netDebt !== null) ? netDebt - dealValue : netDebt;
+
+  const ev = (equity !== null && netDebtAdj !== null) ? equity + netDebtAdj
            : (equity !== null ? equity : null);
 
   const bookEquity = read('자본총계');
@@ -2811,7 +2816,14 @@ window.computeValuation = function (cardId) {
   const evSales  = (ev !== null && revenue && revenue !== 0) ? ev / revenue : null;
   const per      = (equity !== null && netIncome && netIncome !== 0) ? equity / netIncome : null;
   // PBR = Equity Value ÷ 순자산(자본총계). 표준 P/B (= 시총/순자산).
-  const pbr      = (equity !== null && bookEquity && bookEquity !== 0) ? equity / bookEquity : null;
+  let pbr        = (equity !== null && bookEquity && bookEquity !== 0) ? equity / bookEquity : null;
+  let pbrText    = null;
+  if (isPrimary && equity !== null && bookEquity) {
+    const prePbr  = (equity - dealValue) / bookEquity;          // 증자 전 지분가치 ÷ 증자 전 순자산
+    const postPbr = equity / (bookEquity + dealValue);          // 증자 후 지분가치 ÷ 증자 후 순자산
+    pbr = postPbr;
+    pbrText = `${fmtMultiple(prePbr)} pre / ${fmtMultiple(postPbr)} post`;
+  }
   const premium  = (equity !== null && mktCap && mktCap !== 0) ? (equity / mktCap - 1) * 100 : null;
 
   setOut('IBD',        fmtVal(ibd));
@@ -2823,7 +2835,7 @@ window.computeValuation = function (cardId) {
   setOut('EV_EBITDA',  fmtMultiple(evEbitda));
   setOut('EV_Sales',   fmtMultiple(evSales));
   setOut('PER',        fmtMultiple(per));
-  setOut('PBR',        fmtMultiple(pbr));
+  setOut('PBR',        pbrText || fmtMultiple(pbr));
   setOut('Premium',    fmtPercent(premium));
 
   // ── 요약 배너 (PDF 스타일) ──
@@ -2850,7 +2862,13 @@ window.computeValuation = function (cardId) {
   setOut('Earnings_sum',   fmtUnit(netIncome));
   setOut('BookEquity_sum', fmtUnit(bookEquity));
   setOut('PER_sum',        fmtMultiple(per));
-  setOut('PBR_sum',        fmtMultiple(pbr));
+  setOut('PBR_sum',        pbrText || fmtMultiple(pbr));
+  if (isPrimary) {
+    // 순자산 칸도 증자 후 기준으로 맞추고, 히어로 칩 라벨에 post 표기
+    setOut('BookEquity_sum', bookEquity !== null ? `${fmtVal(bookEquity + dealValue)} 억원 (post)` : '—');
+    const lbl = card.querySelector('.val-hero-pbr .val-hero-label');
+    if (lbl) lbl.textContent = 'PBR (post)';
+  }
 };
 
 // ─── View Router ──────────────────────────────────────────
