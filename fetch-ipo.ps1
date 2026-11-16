@@ -95,8 +95,10 @@ $spacKo = [string]([char]0xC2A4 + [char]0xD329)
 
 # 38.co.kr code -> code Naver Finance actually serves. See use site below.
 #   952509 -> 950260  INGENIA Therapeutics (Reg.S), listed 2026-08-18
+#   952366 -> 0153R0  Baropharm (KOSDAQ alphanumeric code), listed 2026-11-11
 $CodeOverride = @{
     '952509' = '950260'
+    '952366' = '0153R0'
 }
 
 $companies = @()
