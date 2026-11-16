@@ -50,7 +50,7 @@
                        "importance":  3,
                        "indicator":  "GDP (QoQ)",
                        "period":  "Q3",
-                       "actual":  "",
+                       "actual":  "0.0%",
                        "forecast":  "0.1%",
                        "previous":  "0.4%",
                        "type":  "preview"
