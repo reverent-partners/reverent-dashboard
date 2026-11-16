@@ -231,6 +231,21 @@ $preIpoCount = 0
 foreach ($c in $companies) {
     if (-not $c.code) { continue }
     $snap = Get-NaverSnapshot -code $c.code
+    # Fallback: 38.co.kr sometimes carries a code Naver does not serve (Reg.S
+    # tranches, new KRX alphanumeric codes like 0153R0). For already-listed rows
+    # with no Naver data, resolve the real code by name via Naver autocomplete.
+    if ($null -eq $snap.curPrice -and $c.listIso -and $c.listIso -le $todayD.ToString('yyyy-MM-dd')) {
+        try {
+            $q = [Uri]::EscapeDataString($c.name)
+            $ac = Invoke-RestMethod "https://ac.stock.naver.com/ac?q=${q}&target=stock" -Headers @{ 'User-Agent' = $UA } -TimeoutSec 15
+            $hit = @($ac.items) | Where-Object { $_.name -eq $c.name -and $_.nationCode -eq 'KOR' } | Select-Object -First 1
+            if ($hit -and $hit.code -and $hit.code -ne $c.code) {
+                Write-Host ("   code fix: " + $c.code + " -> " + $hit.code + " (resolved by name)") -ForegroundColor Yellow
+                $c.code = $hit.code
+                $snap = Get-NaverSnapshot -code $c.code
+            }
+        } catch { }
+    }
     $touched = $false
     if ($null -ne $snap.mcap)     { $c.mcap     = $snap.mcap; $c.mcapDate = $snap.mcapDate; $touched = $true }
     if ($null -ne $snap.curPrice) { $c.curPrice = $snap.curPrice; $touched = $true }
