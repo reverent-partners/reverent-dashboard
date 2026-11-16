@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-14T12:14:20Z",
-    "updatedKr":  "2026-11-14 21:14:20",
+    "updated":  "2026-11-16T22:00:32Z",
+    "updatedKr":  "2026-11-17 07:00:32",
     "countries":  [
                       "5",
                       "35",
@@ -26,6 +26,21 @@
                        "type":  "review"
                    },
                    {
+                       "id":  "us-cpi-mom-oct",
+                       "datetime":  "2026/11/10 22:30:00",
+                       "date":  "11/10",
+                       "time":  "22:30",
+                       "flagKey":  "United_States",
+                       "currency":  "USD",
+                       "importance":  3,
+                       "indicator":  "CPI (MoM)",
+                       "period":  "Oct",
+                       "actual":  "0.4%",
+                       "forecast":  "0.3%",
+                       "previous":  "0.6%",
+                       "type":  "review"
+                   },
+                   {
                        "id":  "us-corecpi-yoy-oct",
                        "datetime":  "2026/11/10 22:30:00",
                        "date":  "11/10",
@@ -41,6 +56,21 @@
                        "type":  "review"
                    },
                    {
+                       "id":  "us-corecpi-mom-oct",
+                       "datetime":  "2026/11/10 22:30:00",
+                       "date":  "11/10",
+                       "time":  "22:30",
+                       "flagKey":  "United_States",
+                       "currency":  "USD",
+                       "importance":  3,
+                       "indicator":  "Core CPI (MoM)",
+                       "period":  "Oct",
+                       "actual":  "0.3%",
+                       "forecast":  "0.2%",
+                       "previous":  "0.3%",
+                       "type":  "review"
+                   },
+                   {
                        "id":  "us-ppi-yoy-oct",
                        "datetime":  "2026/11/13 22:30:00",
                        "date":  "11/13",
@@ -50,9 +80,24 @@
                        "importance":  3,
                        "indicator":  "PPI YoY",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "6.5%",
                        "forecast":  "6.6%",
                        "previous":  "6.5%",
+                       "type":  "review"
+                   },
+                   {
+                       "id":  "us-ppi-mom-oct",
+                       "datetime":  "2026/11/13 22:30:00",
+                       "date":  "11/13",
+                       "time":  "22:30",
+                       "flagKey":  "United_States",
+                       "currency":  "USD",
+                       "importance":  3,
+                       "indicator":  "PPI (MoM)",
+                       "period":  "Oct",
+                       "actual":  "0.3%",
+                       "forecast":  "0.4%",
+                       "previous":  "1.4%",
                        "type":  "review"
                    },
                    {
@@ -65,9 +110,24 @@
                        "importance":  3,
                        "indicator":  "Core PPI YoY",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "5.0%",
                        "forecast":  "5%",
                        "previous":  "4.9%",
+                       "type":  "review"
+                   },
+                   {
+                       "id":  "us-coreppi-mom-oct",
+                       "datetime":  "2026/11/13 22:30:00",
+                       "date":  "11/13",
+                       "time":  "22:30",
+                       "flagKey":  "United_States",
+                       "currency":  "USD",
+                       "importance":  3,
+                       "indicator":  "Core PPI (MoM)",
+                       "period":  "Oct",
+                       "actual":  "0.3%",
+                       "forecast":  "0.3%",
+                       "previous":  "0.8%",
                        "type":  "review"
                    },
                    {
@@ -127,7 +187,7 @@
                        "period":  "Oct",
                        "actual":  "3.75M",
                        "forecast":  "3.89M",
-                       "previous":  "4.0M",
+                       "previous":  "3.97M",
                        "type":  "review"
                    },
                    {
