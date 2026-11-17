@@ -284,7 +284,7 @@
                          "importance":  3,
                          "indicator":  "Retail Sales MoM",
                          "period":  "Oct",
-                         "actual":  "",
+                         "actual":  "0.2%",
                          "forecast":  "0.0%",
                          "previous":  "0.8%",
                          "type":  "preview"
@@ -299,7 +299,7 @@
                          "importance":  3,
                          "indicator":  "Industrial Production MoM",
                          "period":  "Oct",
-                         "actual":  "",
+                         "actual":  "-0.4%",
                          "forecast":  "0.1%",
                          "previous":  "0.7%",
                          "type":  "preview"

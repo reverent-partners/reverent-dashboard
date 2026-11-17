@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-17T22:00:35Z",
-    "updatedKr":  "2026-11-18 07:00:35",
+    "updated":  "2026-11-17T23:13:51Z",
+    "updatedKr":  "2026-11-18 08:13:51",
     "countries":  [
                       "5",
                       "35",
@@ -245,7 +245,7 @@
                        "importance":  3,
                        "indicator":  "Retail Sales MoM",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "0.2%",
                        "forecast":  "0.0%",
                        "previous":  "0.8%",
                        "type":  "preview"
@@ -260,7 +260,7 @@
                        "importance":  3,
                        "indicator":  "Industrial Production MoM",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "-0.4%",
                        "forecast":  "0.1%",
                        "previous":  "0.7%",
                        "type":  "preview"
