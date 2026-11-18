@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-18T22:00:41Z",
-    "updatedKr":  "2026-11-19 07:00:41",
+    "updated":  "2026-11-18T23:13:04Z",
+    "updatedKr":  "2026-11-19 08:13:04",
     "countries":  [
                       "5",
                       "35",
@@ -50,10 +50,10 @@
                        "importance":  3,
                        "indicator":  "Housing Starts",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "1.309M",
                        "forecast":  "1.250M",
                        "previous":  "1.221M",
-                       "type":  "preview"
+                       "type":  "review"
                    },
                    {
                        "id":  "us-fomc-minutes-nov",
