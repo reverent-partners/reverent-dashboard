@@ -344,10 +344,10 @@
                          "importance":  3,
                          "indicator":  "Housing Starts",
                          "period":  "Oct",
-                         "actual":  "",
+                         "actual":  "1.309M",
                          "forecast":  "1.250M",
                          "previous":  "1.221M",
-                         "type":  "preview"
+                         "type":  "review"
                      },
                      {
                          "id":  "us-fomc-minutes-nov",
@@ -455,7 +455,7 @@
                          "type":  "preview"
                      }
                  ],
-    "updated":  "2026-11-18T03:50:27Z",
-    "updatedKr":  "2026-11-18 12:50:27",
+    "updated":  "2026-11-18T22:00:43Z",
+    "updatedKr":  "2026-11-19 07:00:43",
     "frozenDow":  "Tuesday"
 }
