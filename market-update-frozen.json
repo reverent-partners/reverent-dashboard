@@ -314,7 +314,7 @@
                          "importance":  3,
                          "indicator":  "Balance of Trade",
                          "period":  "Oct",
-                         "actual":  "",
+                         "actual":  "-476.5B",
                          "forecast":  "",
                          "previous":  "-556.5B",
                          "type":  "preview"
@@ -329,7 +329,7 @@
                          "importance":  3,
                          "indicator":  "Exports YoY",
                          "period":  "Oct",
-                         "actual":  "",
+                         "actual":  "20.5%",
                          "forecast":  "",
                          "previous":  "16.7%",
                          "type":  "preview"
