@@ -345,7 +345,7 @@
                          "indicator":  "Housing Starts",
                          "period":  "Oct",
                          "actual":  "",
-                         "forecast":  "1.230M",
+                         "forecast":  "1.250M",
                          "previous":  "1.221M",
                          "type":  "preview"
                      },
@@ -455,7 +455,7 @@
                          "type":  "preview"
                      }
                  ],
-    "updated":  "2026-11-14T12:14:22Z",
-    "updatedKr":  "2026-11-14 21:14:22",
+    "updated":  "2026-11-18T03:50:27Z",
+    "updatedKr":  "2026-11-18 12:50:27",
     "frozenDow":  "Tuesday"
 }
