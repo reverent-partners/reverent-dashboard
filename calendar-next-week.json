@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-19T02:25:25Z",
-    "updatedKr":  "2026-11-19 11:25:25",
+    "updated":  "2026-11-19T22:00:33Z",
+    "updatedKr":  "2026-11-20 07:00:33",
     "countries":  [
                       "5",
                       "35",
@@ -81,7 +81,7 @@
                        "indicator":  "Initial Jobless Claims",
                        "period":  "Nov/14",
                        "actual":  "",
-                       "forecast":  "",
+                       "forecast":  "198K",
                        "previous":  "200K",
                        "type":  "preview"
                    },
@@ -96,7 +96,7 @@
                        "indicator":  "Philadelphia Fed Manufacturing Index",
                        "period":  "Nov",
                        "actual":  "",
-                       "forecast":  "19",
+                       "forecast":  "20.6",
                        "previous":  "20.9",
                        "type":  "preview"
                    },

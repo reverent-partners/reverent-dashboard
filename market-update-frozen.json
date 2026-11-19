@@ -374,10 +374,10 @@
                          "importance":  3,
                          "indicator":  "Initial Jobless Claims",
                          "period":  "Nov/14",
-                         "actual":  "",
+                         "actual":  "203K",
                          "forecast":  "198K",
                          "previous":  "200K",
-                         "type":  "preview"
+                         "type":  "review"
                      },
                      {
                          "id":  "us-phillyfed-nov",
@@ -389,10 +389,10 @@
                          "importance":  3,
                          "indicator":  "Philadelphia Fed Manufacturing Index",
                          "period":  "Nov",
-                         "actual":  "",
+                         "actual":  "6.3",
                          "forecast":  "20.6",
                          "previous":  "20.9",
-                         "type":  "preview"
+                         "type":  "review"
                      },
                      {
                          "id":  "kr-ppi-yoy-oct",
@@ -455,7 +455,7 @@
                          "type":  "preview"
                      }
                  ],
-    "updated":  "2026-11-19T02:25:27Z",
-    "updatedKr":  "2026-11-19 11:25:27",
+    "updated":  "2026-11-19T22:00:34Z",
+    "updatedKr":  "2026-11-20 07:00:34",
     "frozenDow":  "Tuesday"
 }
