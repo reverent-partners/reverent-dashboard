@@ -480,8 +480,7 @@ powershell -ExecutionPolicy Bypass -File .\fetch-ipo.ps1    # IPO(#peer): 신규
 ```markdown
 # 💼 Weekly Macro · Capital Markets · Deal Flow — 2026년 5월 15일 (W/E 2026-05-15)
 
-> 데이터 기준: 2026-05-11(월) ~ 2026-05-15(금) — 더벨, 딜사이트, 인베스트조선, 한경, 매경, 연합인포맥스, Bloomberg 폴백 등
-> Phase 0 신호: 일일 news-clipping 5건 누적 신호 반영
+> ⛔ (2026-11-20 사용자 지시) 제목 바로 아래에 `> 데이터 기준: … — 매체 목록 … / Phase 0 신호: …` 주석 줄을 **넣지 않는다**. 구성·Valuation 기준·시장 배경 노트는 유지.
 
 ## 1. Macro 동향 🔴 의무 섹션
 
