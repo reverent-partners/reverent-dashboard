@@ -3,5 +3,11 @@
   "roles": {
     "primary": "배미나",
     "us-close": ""
+  },
+  "today": {
+    "date": "2026-11-23",
+    "roles": { "primary": "DESKTOP-GFMNI52" },
+    "by": "DESKTOP-GFMNI52",
+    "at": "2026-11-23T06:38:48+09:00"
   }
 }
