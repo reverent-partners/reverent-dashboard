@@ -1,6 +1,6 @@
 {
     "version":  1,
-    "updated":  "2026-11-20T07:51:28Z",
+    "updated":  "2026-11-22T02:02:26Z",
     "entries":  {
                     "ipo-mcap-420610":  1020,
                     "macro-notes-2026-07-24":  {
@@ -614,7 +614,7 @@
                                                               "weekDate":  "2026-06-19",
                                                               "headline":  "의료기기社 \u0027바임(Baim)\u0027 매각 추진…골드만삭스 주관, 기업가치 약 2조"
                                                           },
-                    "capmkt-comment-index":  "미 증시는 10월 CPI 상회·국채금리 급등 부담 속에서도 코어위브 호실적(신용불안 완화)과 앤트로픽 IPO 흥행에 필라델피아 반도체 +5.7% 급반등. 이후 젠슨 황 엔비디아 CEO 사임과 연준 금융안정보고서의 AI 고평가 경고로 AI·반도체 약세 전환.\n코스피는 전주 급락 되돌림에 반등. 반도체·기판·엔터 강세.",
+                    "capmkt-comment-index":  "미 증시는 엔비디아 호실적에도 리더십 공백·SEC 회계조사·대중국 우회수출 의혹, AMD 공매도 보고서, 앤트로픽 상장(시초가 +34%) 후 AI주 수급 이탈이 겹치며 급락. 금요일 옵션만기까지 더해져 나스닥 -5.3%·필라델피아 반도체 -10.7%, 3대 지수 200일선 이탈하며 다우·나스닥 조정 구간 진입.\n코스피는 외국인 주간 4.6조원 순매도에 4,869.96(-7.95%)으로 5천선 붕괴. 반도체 급락 속 한한령 완화 기대에 엔터·여행·화장품만 강세.",
                     "ipo-mcap-0156T0":  1669,
                     "rp::valuation::2026-10-30::a6ljsf":  {
                                                               "values":  {
@@ -658,7 +658,7 @@
                                                               "weekDate":  "2026-10-30",
                                                               "headline":  "MBK, K뷰티 2건 연속 종결 — 바이아웃과 그로스 투자 병행 (2026.10.27~29) ‖ Valuation — 라이프앤바이오 (corp_code 01732513, 비상장 외감, 단위: 억원, FY2025 연결)"
                                                           },
-                    "capmkt-comment-rate":  "미 국채금리는 10월 CPI 상회(헤드라인 MoM 0.4%·근원 0.3%)와 월러 이사 매파 발언에 2년물 하루 20bp 급등, 12월 25bp 추가 인상 확률 90%까지 확대. \nPPI는 예상 하회(MoM 0.3%)했으나 연준 위원들의 긴축 강화 발언에 하락 제한. 국고채는 미 금리 연동 약세로 3년물 3.73%(+6bp)·10년물 3.94%(+5bp).",
+                    "capmkt-comment-rate":  "미 국채금리는 10월 FOMC 의사록(대부분 위원 추가 인상 필요성 동의)과 월러 이사의 \u002712월 50bp 인상\u0027 발언에 장 초반 상승했으나, AI주 급락발 안전자산 선호와 미시간 1년 기대인플레 3.7%(예상 4.3%) 하회에 단기물 중심으로 하락 전환. 10년물은 장중 5% 하회.\n국고채는 미 금리 등락 속 보합권(3년물 3.72%·10년물 3.94%, 19일 기준)에서 26일 금통위 대기.",
                     "rp::valuation::2026-05-29::ma4aut":  {
                                                               "values":  {
                                                                              "매출액":  "1,034",
@@ -791,7 +791,7 @@
                                                               "headline":  "삼천리자산운용, 대명에너지 정리…신재생 1호 펀드 청산 가시화"
                                                           },
                     "semicon-comment-time":  "11-02 08:14",
-                    "capmkt-comment-fx":  "달러화는 CPI 상회와 연준 위원들의 긴축 강화 발언, 유가 반등발 금리 급등에 강세, DXY 103선(19개월 최고). 유로화는 천연가스 급등에 따른 경기 우려로 약세.\n원/달러는 글로벌 달러 강세에도 외국인 증시 순매수와 전주 급등 되돌림에 1,336원(주간 -1.5%)으로 하락.\n엔화는 정부의 개입 시사에도 달러/엔 160엔에 근접하며 약세 지속.",
+                    "capmkt-comment-fx":  "달러화는 FOMC 의사록·월러 이사 매파 발언에 DXY 103.9(18개월 최고)까지 강세 후, 금요일 미시간 기대인플레 하회와 국채금리 급락에 상승분 일부 반납.\n원/달러는 외국인 대규모 순매도에도 1,336원으로 주간 보합 마감했으나, 금요일 미 증시 폭락에 NDF 1개월물 1,345원으로 상승.\n엔화는 안전자산 선호에 금요일 강세 전환, 달러/엔 159엔대.",
                     "rp::valuation::2026-06-12::b0zyeo":  {
                                                               "values":  {
                                                                              "매출액":  "429",
@@ -1013,7 +1013,7 @@
                                                               "weekDate":  "2026-10-02",
                                                               "headline":  "한화생명·센트로이드PE, EQT로부터 애큐온캐피탈·저축은행 약 9,000억원 인수 SPA"
                                                           },
-                    "dashboard-macro-comment-time":  "11-14 21:40",
+                    "dashboard-macro-comment-time":  "11-22 11:02",
                     "rp::valuation::2026-07-10::hb2lak":  {
                                                               "values":  {
                                                                              "매출액":  "410",
@@ -1201,7 +1201,7 @@
                                                               "weekDate":  "2026-07-03",
                                                               "headline":  "한화생명, EQT \u0027애큐온캐피탈+저축은행\u0027 인수 우협 선정"
                                                           },
-                    "capmkt-comment-time-fx":  "26. 11. 14. 21:40",
+                    "capmkt-comment-time-fx":  "26. 11. 22. 11:02",
                     "rp::valuation::2026-05-15::6e0irw":  {
                                                               "values":  {
                                                                              "매출액":  "15,578",
@@ -1350,7 +1350,7 @@
                                                              "image":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTgwIDMzMCIgd2lkdGg9IjExODAiIGhlaWdodD0iMzMwIiBmb250LWZhbWlseT0iJ01hbGd1biBHb3RoaWMnLCdBcHBsZSBTRCBHb3RoaWMgTmVvJyxzYW5zLXNlcmlmIj4KICA8cmVjdCB3aWR0aD0iMTE4MCIgaGVpZ2h0PSIzMzAiIGZpbGw9IiNmZmZmZmYiLz4KCiAgPCEtLSDilIDilIAgTEVGVCBQQU5FTCDilIDilIAgLS0+CiAgPHRleHQgeD0iMjQiIHk9IjM0IiBmb250LXNpemU9IjIxIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMWExYTFhIj5TS+2FlOugiOy9pCDquLDsl4Ug6rWs7KGwIOyerO2OuCDrgrTsmqk8L3RleHQ+CiAgPHJlY3QgeD0iMjQiIHk9IjQ0IiB3aWR0aD0iNTMwIiBoZWlnaHQ9IjMiIGZpbGw9IiMxYTFhMWEiLz4KCiAgPCEtLSBTS1QgYm94IC0tPgogIDxyZWN0IHg9IjE1MCIgeT0iNjQiIHdpZHRoPSIyODAiIGhlaWdodD0iNDIiIGZpbGw9IiNkNjMwM2EiLz4KICA8dGV4dCB4PSIyOTAiIHk9IjkyIiBmb250LXNpemU9IjE5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TS+2FlOugiOy9pDwvdGV4dD4KCiAgPCEtLSBjb25uZWN0b3JzIC0tPgogIDxwYXRoIGQ9Ik0yOTAgMTA2IEwyOTAgMTMwIE0xMzAgMTMwIEw0NTAgMTMwIE0xMzAgMTMwIEwxMzAgMTU4IE00NTAgMTMwIEw0NTAgMTU4IiBzdHJva2U9IiM3YTdhN2EiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgogIDx0ZXh0IHg9IjEyMiIgeT0iMTUwIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMWExYTFhIiB0ZXh0LWFuY2hvcj0iZW5kIj4xMDAlPC90ZXh0PgogIDx0ZXh0IHg9IjQ1OCIgeT0iMTUwIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMWExYTFhIj41MSU8L3RleHQ+CgogIDwhLS0gU0vruIzroZzrk5zrsLTrk5wgLS0+CiAgPHJlY3QgeD0iMzAiIHk9IjE1OCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIzOCIgZmlsbD0iI2Q2MzAzYSIvPgogIDx0ZXh0IHg9IjEzMCIgeT0iMTgzIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TS+u4jOuhnOuTnOuwtOuTnCjsobTsho3tmozsgqwpPC90ZXh0PgogIDxyZWN0IHg9IjMwIiB5PSIxOTYiIHdpZHRoPSIyMDAiIGhlaWdodD0iMzQiIGZpbGw9IiM4ZjIwMTgiLz4KICA8dGV4dCB4PSIxMzAiIHk9IjIyMSIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MC44NDwvdGV4dD4KICA8dGV4dCB4PSIxMzAiIHk9IjI1MiIgZm9udC1zaXplPSIxMy41IiBmaWxsPSIjMWExYTFhIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7snKDshKDCt+uvuOuUlOyWtMK37JeU7YSw7ZSE65287J207KaIPC90ZXh0PgogIDx0ZXh0IHg9IjEzMCIgeT0iMjcwIiBmb250LXNpemU9IjEzLjUiIGZpbGw9IiMxYTFhMWEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuyCrOyXhSDtmIHsi6A8L3RleHQ+CgogIDwhLS0g67aE7ZWg67mE7JyoIC0tPgogIDx0ZXh0IHg9IjI5MCIgeT0iMjIxIiBmb250LXNpemU9IjEzLjUiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNkNjMwM2EiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuu2hO2VoOu5hOycqDwvdGV4dD4KCiAgPCEtLSBTS+2YuOudvOydtOymjCAtLT4KICA8cmVjdCB4PSIzNTAiIHk9IjE1OCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIzOCIgZmlsbD0iI2Q2MzAzYSIvPgogIDx0ZXh0IHg9IjQ1MCIgeT0iMTgzIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TS+2YuOudvOydtOymjCjsi6DshKTtmozsgqwpPC90ZXh0PgogIDxyZWN0IHg9IjM1MCIgeT0iMTk2IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjM0IiBmaWxsPSIjOGYyMDE4Ii8+CiAgPHRleHQgeD0iNDUwIiB5PSIyMjEiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjAuMTY8L3RleHQ+CiAgPHRleHQgeD0iNDUwIiB5PSIyNTIiIGZvbnQtc2l6ZT0iMTMuNSIgZmlsbD0iIzFhMWExYSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+642w7J207YSw7IS87YSwIOuwjzwvdGV4dD4KICA8dGV4dCB4PSI0NTAiIHk9IjI3MCIgZm9udC1zaXplPSIxMy41IiBmaWxsPSIjMWExYTFhIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7tlbTsoIDsvIDsnbTruJQg7IKs7JeFIO2ZleyepTwvdGV4dD4KCiAgPCEtLSBkaXZpZGVyIC0tPgogIDxsaW5lIHgxPSI2MDAiIHkxPSIyMCIgeDI9IjYwMCIgeTI9IjMwMCIgc3Ryb2tlPSIjZGNkY2RjIiBzdHJva2Utd2lkdGg9IjIiLz4KCiAgPCEtLSDilIDilIAgUklHSFQgUEFORUwg4pSA4pSAIC0tPgogIDx0ZXh0IHg9IjYyOCIgeT0iMzQiIGZvbnQtc2l6ZT0iMjEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxYTFhMWEiPkFJIOuNsOydtO2EsOyEvO2EsCDsgqzsl4Ug7J6s7KCV67mE7ZWY64qUIFNL7YWU66CI7L2kPC90ZXh0PgogIDxyZWN0IHg9IjYyOCIgeT0iNDQiIHdpZHRoPSI1MjgiIGhlaWdodD0iMyIgZmlsbD0iIzFhMWExYSIvPgoKICA8dGV4dCB4PSI2NjAiIHk9IjcwIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2NjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7rspXsnbg8L3RleHQ+CiAgPHRleHQgeD0iNzkwIiB5PSI3MCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzY2NjY2NiI+7Jet7ZWgPC90ZXh0PgogIDx0ZXh0IHg9IjExNDgiIHk9IjcwIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2NjY2IiB0ZXh0LWFuY2hvcj0iZW5kIj7sp4DrtoQg6rWs7KGwKCUpPC90ZXh0PgogIDxsaW5lIHgxPSI2MjgiIHkxPSI4MCIgeDI9IjExNTYiIHkyPSI4MCIgc3Ryb2tlPSIjY2NjY2NjIiBzdHJva2Utd2lkdGg9IjEiLz4KCiAgPCEtLSByb3cgMSAtLT4KICA8cmVjdCB4PSI2MjgiIHk9IjkwIiB3aWR0aD0iMTI2IiBoZWlnaHQ9IjQ0IiBmaWxsPSIjZTg2MjJhIi8+CiAgPHRleHQgeD0iNjkxIiB5PSIxMTgiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNL7YWU66CI7L2kPC90ZXh0PgogIDx0ZXh0IHg9Ijc5MCIgeT0iMTE4IiBmb250LXNpemU9IjE1IiBmaWxsPSIjMWExYTFhIj5BSSDrjbDsnbTthLDshLzthLAg7IKs7JeFIOy0neq0hDwvdGV4dD4KICA8bGluZSB4MT0iNjI4IiB5MT0iMTQyIiB4Mj0iMTE1NiIgeTI9IjE0MiIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz4KCiAgPCEtLSByb3cgMiAtLT4KICA8cmVjdCB4PSI2MjgiIHk9IjE1MiIgd2lkdGg9IjEyNiIgaGVpZ2h0PSI0NCIgZmlsbD0iI2U4NjIyYSIvPgogIDx0ZXh0IHg9IjY5MSIgeT0iMTgwIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TS+2VmOydtO2NvDwvdGV4dD4KICA8dGV4dCB4PSI3OTAiIHk9IjE3MiIgZm9udC1zaXplPSIxNSIgZmlsbD0iIzFhMWExYSI+7Iug6recIEFJIOuNsOydtO2EsOyEvO2EsDwvdGV4dD4KICA8dGV4dCB4PSI3OTAiIHk9IjE5MiIgZm9udC1zaXplPSIxNSIgZmlsbD0iIzFhMWExYSI+7IKs7JeFIOqwnOuwnMK37KGw7ISxPC90ZXh0PgogIDx0ZXh0IHg9IjEwNTAiIHk9IjE4MCIgZm9udC1zaXplPSIxNC41IiBmaWxsPSIjMWExYTFhIj5TS+2FlOugiOy9pDwvdGV4dD4KICA8dGV4dCB4PSIxMTIyIiB5PSIxODAiIGZvbnQtc2l6ZT0iMTQuNSIgZmlsbD0iIzk5OTk5OSI+wrfCt8K3wrfCtzwvdGV4dD4KICA8dGV4dCB4PSIxMTU2IiB5PSIxODAiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxYTFhMWEiIHRleHQtYW5jaG9yPSJlbmQiPjEwMDwvdGV4dD4KICA8bGluZSB4MT0iNjI4IiB5MT0iMjA2IiB4Mj0iMTE1NiIgeTI9IjIwNiIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz4KCiAgPCEtLSByb3cgMyAtLT4KICA8cmVjdCB4PSI2MjgiIHk9IjIxNiIgd2lkdGg9IjEyNiIgaGVpZ2h0PSI3MCIgZmlsbD0iI2U4NjIyYSIvPgogIDx0ZXh0IHg9IjY5MSIgeT0iMjU3IiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TS+2YuOudvOydtOymjDwvdGV4dD4KICA8dGV4dCB4PSI3OTAiIHk9IjI0MCIgZm9udC1zaXplPSIxNSIgZmlsbD0iIzFhMWExYSI+6riw7KG0IEFJIOuNsOydtO2EsOyEvO2EsDwvdGV4dD4KICA8dGV4dCB4PSI3OTAiIHk9IjI2MCIgZm9udC1zaXplPSIxNSIgZmlsbD0iIzFhMWExYSI+7Jq07JiBwrftmZXsnqU8L3RleHQ+CiAgPHRleHQgeD0iMTAzMiIgeT0iMjM0IiBmb250LXNpemU9IjE0LjUiIGZpbGw9IiMxYTFhMWEiPlNL7YWU66CI7L2kPC90ZXh0PgogIDx0ZXh0IHg9IjExMDQiIHk9IjIzNCIgZm9udC1zaXplPSIxNC41IiBmaWxsPSIjOTk5OTk5Ij7Ct8K3wrfCt8K3PC90ZXh0PgogIDx0ZXh0IHg9IjExNTYiIHk9IjIzNCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFhMWExYSIgdGV4dC1hbmNob3I9ImVuZCI+NTE8L3RleHQ+CiAgPHRleHQgeD0iMTAzMiIgeT0iMjU4IiBmb250LXNpemU9IjE0LjUiIGZpbGw9IiMxYTFhMWEiPktLUjwvdGV4dD4KICA8dGV4dCB4PSIxMDc0IiB5PSIyNTgiIGZvbnQtc2l6ZT0iMTQuNSIgZmlsbD0iIzk5OTk5OSI+wrfCt8K3wrfCt8K3wrfCt8K3wrc8L3RleHQ+CiAgPHRleHQgeD0iMTE1NiIgeT0iMjU4IiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMWExYTFhIiB0ZXh0LWFuY2hvcj0iZW5kIj4yOTwvdGV4dD4KICA8dGV4dCB4PSIxMDMyIiB5PSIyODIiIGZvbnQtc2l6ZT0iMTQuNSIgZmlsbD0iIzFhMWExYSI+SU1N7Luo7IaM7Iuc7JeEPC90ZXh0PgogIDx0ZXh0IHg9IjExMzAiIHk9IjI4MiIgZm9udC1zaXplPSIxNC41IiBmaWxsPSIjOTk5OTk5Ij7Ct8K3PC90ZXh0PgogIDx0ZXh0IHg9IjExNTYiIHk9IjI4MiIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFhMWExYSIgdGV4dC1hbmNob3I9ImVuZCI+MjA8L3RleHQ+CiAgPGxpbmUgeDE9IjYyOCIgeTE9IjI5NiIgeDI9IjExNTYiIHkyPSIyOTYiIHN0cm9rZT0iI2NjY2NjYyIgc3Ryb2tlLXdpZHRoPSIxIi8+CgogIDx0ZXh0IHg9IjI0IiB5PSIzMTgiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM5OTk5OTkiPuyerOq1rOyEsSDrj4TtlbQg4oCUIOybkCDquLDsgqwg6re4656Y7ZS9KO2VnOq1reqyveygnCkg6riw7KSAIMK3IDIwMjYuMDguMjg8L3RleHQ+Cjwvc3ZnPgo="
                                                          },
                     "ipo-mcap-439270":  1967,
-                    "capmkt-comment-time-index":  "26. 11. 16. 오전 08:41",
+                    "capmkt-comment-time-index":  "26. 11. 22. 11:02",
                     "rp::valuation::2026-05-15::fh8pl2":  {
                                                               "values":  {
                                                                              "EBITDA":  "300",
@@ -1446,7 +1446,7 @@
                                                               "weekDate":  "2026-10-09",
                                                               "headline":  "비에이PE·TKG벤처스, 반도체·디스플레이 부품사 윌비에스엔티 약 3,000억원 인수 SPA"
                                                           },
-                    "capmkt-comment-time-rate":  "26. 11. 16. 오전 08:41",
+                    "capmkt-comment-time-rate":  "26. 11. 22. 11:02",
                     "rp::valuation::2026-06-12::6uwsr2":  {
                                                               "values":  {
                                                                              "매출액":  "8,830",
@@ -1607,7 +1607,7 @@
                                                               "weekDate":  "2026-07-03",
                                                               "headline":  "롯데렌탈, TPG로 기운다…단독 실사 착수·7월 말 SPA 유력"
                                                           },
-                    "capmkt-comment-commodity":  "국제유가는 주 초 미-이란 협상 기대에 하락했으나, 트럼프의 \u0027이란 합의 불필요\u0027 발언과 이란 남부 공격 소식에 WTI 88.7달러(+2.9%)·브렌트 95.8달러(+3.7%)로 급반등, 주간 WTI -2% 내외.\n금은 CPI 충격발 금리 급등·달러 강세에 하루 3% 급락하며 3,900달러 하회, 주간 -4%대. 은도 동반 약세.\n구리는 엔비디아 사태발 AI 인프라 수요 우려에 약세, 대두는 중국의 미국산 구매에 상승.",
+                    "capmkt-comment-commodity":  "국제유가는 미 원유재고 예상 상회 증가(+338만 배럴)와 공급과잉 전망에 WTI 3개월래 최저(83달러대)까지 하락. 주 후반 호르무즈 유조선 피격·후티 공격에 소폭 반등했으나 주간 약세.\n금은 매파 연준·달러 강세에 이어 금요일 증시 급락발 포지션 청산에 4%대 급락, 3,500달러대로 14개월래 최저(주간 -9% 내외). 은도 동반 급락.\n구리는 AI 데이터센터 건설 지연 우려에 7개월래 최저, 대두는 중국 구매 기대에 강세.",
                     "rp::valuation::2026-08-14::wyi8jd":  {
                                                               "values":  {
                                                                              "매출액":  "28,649",
@@ -1692,8 +1692,8 @@
                                                               "weekDate":  "2026-08-07",
                                                               "headline":  "베인캐피탈, 공차글로벌 인수 — 약 9,000억원, 한·일 사무소 공조로 통합 인수"
                                                           },
-                    "capmkt-comment-time-commodity":  "26. 11. 14. 21:40",
-                    "dashboard-macro-comment":  "차주는 17일(현지) 엔비디아 3Q 실적이 최대 변수 — 젠슨 황 사임 후 AI 투자·고객사 금융지원 전략 유지 여부 확인. 19일 앤트로픽 나스닥 상장(희망가 70~78달러, 시총 약 1.4조달러), 18~19일 미-중 정상회담·APEC도 주목.\n금리는 17일 소매판매(0.0% 예상)·산업생산, 18일 10월 FOMC 의사록(12월 추가 인상 시그널)과 20년물 입찰이 핵심. 16일 워시 연준의장 발언.\n그 외 16일 일본 3Q GDP·13F 마감, 18일 유로존 CPI, 19일 월마트 실적, 20일 미 월간 옵션만기·한국 PPI.",
+                    "capmkt-comment-time-commodity":  "26. 11. 22. 11:02",
+                    "dashboard-macro-comment":  "차주는 25일(현지) 10월 PCE(근원 YoY 3.2% 예상, 전월 3.1%)·3Q GDP 수정치(3.4%)·내구재·신규주택판매·베이지북이 핵심 — 의사록·월러 발언으로 12월 추가 인상(50bp 가능성) 경계 속 근원물가 재가속 시 10년물 5% 재돌파 여부 주목.\nAI 수요 점검은 23일 HPE, 24일 델·HP 실적. 23~25일 미 2·5·7년물 국채 입찰, 24일 CB 소비자신뢰.\n26일 한은 금통위(수정 경제전망)·미 추수감사절 휴장, 27일 블랙프라이데이 조기폐장·도쿄 CPI, 29일 OPEC 회의, 30일 MSCI 정기변경 적용.",
                     "rp::valuation::2026-06-12::xgufgs":  {
                                                               "values":  {
                                                                              "Deal Value":  "2,000",
