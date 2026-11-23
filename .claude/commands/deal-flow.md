@@ -62,9 +62,10 @@ powershell -File .\fetch-dart-valuation.ps1 -CorpCode <8자리> -CorpName <name>
 ## 기준 날짜와 기간
 
 - **endDate**: 명령 실행 시각(KST) 기준 그 주의 금요일 (월~목에 실행 시 다가오는 금요일, 토~일에 실행 시 직전 금요일)
-- **startDate**: endDate − 4일 (월요일)
+- **startDate**: endDate − 6일 (**전주 토요일**) — 🔴 2026-11-23 사용자 지시: 기사 클리핑 대상에 **전주 주말(토·일) 보도분 포함**. 월~금만 보면 주말 단독·주말판 딜 기사가 빠짐
+- **대상 기간**: 전주 토요일 ~ 이번 주 금요일 (7일). 1차 매체 리스트·하우스 스윕·URL 날짜 검증 모두 이 7일 기준
 - **파일명**: `./deals/{endDate}.md` (예: `./deals/2026-05-15.md`)
-- **헤더 표기**: `2026-05-11 ~ 2026-05-15`
+- **헤더 표기**: `2026-05-09 ~ 2026-05-15` (토~금)
 
 ---
 
@@ -74,12 +75,13 @@ powershell -File .\fetch-dart-valuation.ps1 -CorpCode <8자리> -CorpName <name>
 
 ### Step 0-1) 파일 읽기
 ```
-Read  ./news/{startDate}.md    (월요일)
-Read  ./news/{startDate+1}.md  (화요일)
-Read  ./news/{startDate+2}.md  (수요일)
-Read  ./news/{startDate+3}.md  (목요일)
+Read  ./news/{endDate-4}.md    (월요일 — 72h 회차라 전주 금~일 보도분 포함 → 주말분 신호 여기서 확보)
+Read  ./news/{endDate-3}.md    (화요일)
+Read  ./news/{endDate-2}.md    (수요일)
+Read  ./news/{endDate-1}.md    (목요일)
 Read  ./news/{endDate}.md      (금요일)
 ```
+주말(토·일) 클리핑 파일은 보통 없으므로, 주말 보도분은 월요일 72h 회차 + 1차 매체 리스트에서 토·일 날짜 기사를 직접 확인해 보강한다.
 존재하는 파일만 처리. 누락 일자 있으면 skip하고 진행. (예: 명령 실행이 화요일이면 월·화만 존재 → 두 파일만 읽음)
 
 ### Step 0-2) 섹션 추출
