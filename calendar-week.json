@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-24T22:00:34Z",
-    "updatedKr":  "2026-11-25 07:00:34",
+    "updated":  "2026-11-25T22:00:34Z",
+    "updatedKr":  "2026-11-26 07:00:34",
     "countries":  [
                       "5",
                       "35",
@@ -110,10 +110,10 @@
                        "importance":  3,
                        "indicator":  "Core PCE Price Index (YoY)",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "3.3%",
                        "forecast":  "3.2%",
                        "previous":  "3.1%",
-                       "type":  "preview",
+                       "type":  "review",
                        "pinned":  true
                    },
                    {
@@ -126,10 +126,10 @@
                        "importance":  2,
                        "indicator":  "PCE price index (MoM)",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "0.3%",
                        "forecast":  "0.3%",
                        "previous":  "0.5%",
-                       "type":  "preview",
+                       "type":  "review",
                        "pinned":  true
                    },
                    {
@@ -142,10 +142,10 @@
                        "importance":  2,
                        "indicator":  "PCE Price index (YoY)",
                        "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "",
+                       "actual":  "3.8%",
+                       "forecast":  "3.8%",
                        "previous":  "3.6%",
-                       "type":  "preview",
+                       "type":  "review",
                        "pinned":  true
                    },
                    {
@@ -158,10 +158,10 @@
                        "importance":  3,
                        "indicator":  "Core PCE Price Index (MoM)",
                        "period":  "Oct",
-                       "actual":  "",
+                       "actual":  "0.3%",
                        "forecast":  "0.3%",
                        "previous":  "0.3%",
-                       "type":  "preview",
+                       "type":  "review",
                        "pinned":  true
                    },
                    {
@@ -174,10 +174,10 @@
                        "importance":  3,
                        "indicator":  "Initial Jobless Claims",
                        "period":  "",
-                       "actual":  "",
-                       "forecast":  "",
+                       "actual":  "189K",
+                       "forecast":  "201K",
                        "previous":  "203K",
-                       "type":  "preview"
+                       "type":  "review"
                    },
                    {
                        "id":  "560734",
@@ -189,10 +189,10 @@
                        "importance":  3,
                        "indicator":  "GDP (QoQ)",
                        "period":  "Q3",
-                       "actual":  "",
+                       "actual":  "4.3%",
                        "forecast":  "3.4%",
                        "previous":  "3.4%",
-                       "type":  "preview"
+                       "type":  "review"
                    },
                    {
                        "id":  "560739",
@@ -204,10 +204,10 @@
                        "importance":  3,
                        "indicator":  "Durable Goods Orders (MoM)",
                        "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "0.0%",
+                       "actual":  "0.2%",
+                       "forecast":  "0.7%",
                        "previous":  "1.9%",
-                       "type":  "preview"
+                       "type":  "review"
                    },
                    {
                        "id":  "560750",
@@ -219,10 +219,10 @@
                        "importance":  3,
                        "indicator":  "New Home Sales",
                        "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "670K",
+                       "actual":  "701K",
+                       "forecast":  "650K",
                        "previous":  "676K",
-                       "type":  "preview"
+                       "type":  "review"
                    }
                ]
 }
