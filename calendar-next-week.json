@@ -1,13 +1,14 @@
-﻿{
-    "updated":  "2026-11-26T01:21:25Z",
-    "updatedKr":  "2026-11-26 10:21:25",
+{
+    "updated":  "2026-11-26T01:27:11Z",
+    "updatedKr":  "2026-11-26 10:27:11",
     "countries":  [
                       "5",
                       "35",
-                      "11"
+                      "11",
+                      "72"
                   ],
     "tab":  "custom 2026-11-30~2026-12-06",
-    "source":  "trading-economics-manual",
+    "source":  "frozen-fallback",
     "events":  [
                    {
                        "id":  "kr_ip_1130",
@@ -22,21 +23,6 @@
                        "actual":  "",
                        "forecast":  "1.7%",
                        "previous":  "1.2%",
-                       "type":  "preview"
-                   },
-                   {
-                       "id":  "jp_ip_1130",
-                       "datetime":  "2026/11/30 08:50:00",
-                       "date":  "11/30",
-                       "time":  "08:50",
-                       "flagKey":  "Japan",
-                       "currency":  "JPY",
-                       "importance":  3,
-                       "indicator":  "Industrial Production MoM Prel",
-                       "period":  "Oct",
-                       "actual":  "",
-                       "forecast":  "0.3%",
-                       "previous":  "2.0%",
                        "type":  "preview"
                    },
                    {

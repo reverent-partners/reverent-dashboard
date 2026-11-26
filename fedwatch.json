@@ -1,6 +1,6 @@
 {
-    "updated":  "2026-11-25T22:00:50Z",
-    "updatedKr":  "2026-11-26 07:00:50",
+    "updated":  "2026-11-26T01:27:29Z",
+    "updatedKr":  "2026-11-26 10:27:29",
     "source":  "CME 30-Day Fed Funds Futures (Yahoo ZQ) + NY Fed EFFR - CME FedWatch methodology",
     "effr":  3.88,
     "targetFrom":  3.75,
@@ -12,20 +12,20 @@
                          "date":  "Dec 09, 2026",
                          "iso":  "2026-12-09",
                          "meetingTime":  "Dec 09, 2026 02:00PM ET",
-                         "futurePrice":  95.95,
-                         "impliedRate":  4.05,
-                         "hikeProb":  91.7,
+                         "futurePrice":  95.945,
+                         "impliedRate":  4.055,
+                         "hikeProb":  94.3,
                          "probabilities":  [
                                                {
                                                    "range":  "3.75 - 4.00",
-                                                   "current":  8.3,
-                                                   "prevDay":  3,
+                                                   "current":  5.7,
+                                                   "prevDay":  8.3,
                                                    "prevWeek":  0
                                                },
                                                {
                                                    "range":  "4.00 - 4.25",
-                                                   "current":  91.7,
-                                                   "prevDay":  97,
+                                                   "current":  94.3,
+                                                   "prevDay":  91.7,
                                                    "prevWeek":  100
                                                }
                                            ]
@@ -37,25 +37,25 @@
                          "meetingTime":  "Jan 27, 2027 01:00PM ET",
                          "futurePrice":  95.855,
                          "impliedRate":  4.145,
-                         "hikeProb":  68.3,
+                         "hikeProb":  69.7,
                          "probabilities":  [
                                                {
                                                    "range":  "3.75 - 4.00",
-                                                   "current":  2.6,
-                                                   "prevDay":  0.9,
+                                                   "current":  1.7,
+                                                   "prevDay":  2.8,
                                                    "prevWeek":  0
                                                },
                                                {
                                                    "range":  "4.00 - 4.25",
-                                                   "current":  34.7,
-                                                   "prevDay":  30.3,
-                                                   "prevWeek":  22.4
+                                                   "current":  32.6,
+                                                   "prevDay":  36.4,
+                                                   "prevWeek":  29.1
                                                },
                                                {
                                                    "range":  "4.25 - 4.50",
-                                                   "current":  62.6,
-                                                   "prevDay":  68.9,
-                                                   "prevWeek":  77.6
+                                                   "current":  65.7,
+                                                   "prevDay":  60.8,
+                                                   "prevWeek":  70.9
                                                }
                                            ]
                      },
@@ -64,33 +64,33 @@
                          "date":  "Mar 17, 2027",
                          "iso":  "2027-03-17",
                          "meetingTime":  "Mar 17, 2027 02:00PM ET",
-                         "futurePrice":  95.65,
-                         "impliedRate":  4.35,
+                         "futurePrice":  95.64,
+                         "impliedRate":  4.36,
                          "hikeProb":  57.9,
                          "probabilities":  [
                                                {
                                                    "range":  "3.75 - 4.00",
-                                                   "current":  1.1,
-                                                   "prevDay":  0.4,
+                                                   "current":  0.7,
+                                                   "prevDay":  1.2,
                                                    "prevWeek":  0
                                                },
                                                {
                                                    "range":  "4.00 - 4.25",
-                                                   "current":  16.2,
-                                                   "prevDay":  13.3,
-                                                   "prevWeek":  8.5
+                                                   "current":  14.7,
+                                                   "prevDay":  17,
+                                                   "prevWeek":  11.1
                                                },
                                                {
                                                    "range":  "4.25 - 4.50",
                                                    "current":  46.5,
-                                                   "prevDay":  46.5,
-                                                   "prevWeek":  43.4
+                                                   "prevDay":  46.7,
+                                                   "prevWeek":  45
                                                },
                                                {
                                                    "range":  "4.50 - 4.75",
-                                                   "current":  36.2,
-                                                   "prevDay":  39.8,
-                                                   "prevWeek":  48.1
+                                                   "current":  38,
+                                                   "prevDay":  35.2,
+                                                   "prevWeek":  43.9
                                                }
                                            ]
                      },
@@ -99,39 +99,39 @@
                          "date":  "Apr 28, 2027",
                          "iso":  "2027-04-28",
                          "meetingTime":  "Apr 28, 2027 02:00PM ET",
-                         "futurePrice":  95.565,
-                         "impliedRate":  4.435,
-                         "hikeProb":  24.1,
+                         "futurePrice":  95.555,
+                         "impliedRate":  4.445,
+                         "hikeProb":  26.1,
                          "probabilities":  [
                                                {
                                                    "range":  "3.75 - 4.00",
-                                                   "current":  0.8,
-                                                   "prevDay":  0.3,
+                                                   "current":  0.5,
+                                                   "prevDay":  0.9,
                                                    "prevWeek":  0
                                                },
                                                {
                                                    "range":  "4.00 - 4.25",
-                                                   "current":  12.5,
-                                                   "prevDay":  9.9,
-                                                   "prevWeek":  5.8
+                                                   "current":  11.1,
+                                                   "prevDay":  13.5,
+                                                   "prevWeek":  7.7
                                                },
                                                {
                                                    "range":  "4.25 - 4.50",
-                                                   "current":  39.2,
-                                                   "prevDay":  37.8,
-                                                   "prevWeek":  32.2
+                                                   "current":  38.2,
+                                                   "prevDay":  40.1,
+                                                   "prevWeek":  34.8
                                                },
                                                {
                                                    "range":  "4.50 - 4.75",
-                                                   "current":  38.7,
-                                                   "prevDay":  41.6,
-                                                   "prevWeek":  46.6
+                                                   "current":  40.3,
+                                                   "prevDay":  37.7,
+                                                   "prevWeek":  44.3
                                                },
                                                {
                                                    "range":  "4.75 - 5.00",
-                                                   "current":  8.7,
-                                                   "prevDay":  10.4,
-                                                   "prevWeek":  15.4
+                                                   "current":  9.9,
+                                                   "prevDay":  7.8,
+                                                   "prevWeek":  13.2
                                                }
                                            ]
                      }

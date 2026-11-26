@@ -1,12 +1,14 @@
-﻿{
-    "updated":  "2026-11-26T01:21:25Z",
-    "updatedKr":  "2026-11-26 10:21:25",
+{
+    "updated":  "2026-11-26T01:27:11Z",
+    "updatedKr":  "2026-11-26 10:27:11",
     "countries":  [
                       "5",
-                      "35"
+                      "35",
+                      "11",
+                      "72"
                   ],
     "tab":  "custom 2026-11-23~2026-11-29",
-    "source":  "trading-economics-manual",
+    "source":  "frozen-fallback",
     "events":  [
                    {
                        "id":  "560666",
