@@ -1,0 +1,31 @@
+{
+    "company":  "Daol",
+    "corp_code":  "00156859",
+    "fiscal_period":  "LTM 3Q26 (FY2025 + 3Q(9M cum)2026 - 3Q(9M cum)2025)",
+    "unit":  "100M KRW",
+    "fetched_at":  "2026-11-27 16:19:21",
+    "pnl":  {
+                "revenue":  29517,
+                "operating_income":  282,
+                "depreciation":  131,
+                "ebitda":  413,
+                "net_income":  329
+            },
+    "equity_total":  8202,
+    "debt":  {
+                 "st_borrowings":  null,
+                 "current_lt_borrowings":  null,
+                 "current_lease":  null,
+                 "lt_borrowings":  null,
+                 "nc_lease":  null
+             },
+    "cash":  {
+                 "cash_and_equivalents":  3533,
+                 "st_financial_invest":  null
+             },
+    "derived":  {
+                    "total_debt":  0,
+                    "total_cash":  3533,
+                    "net_debt":  -3533
+                }
+}
