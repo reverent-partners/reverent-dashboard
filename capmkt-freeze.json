@@ -1,26 +1,26 @@
 {
-    "capturedAt":  "2026-11-27 07:01:57",
+    "capturedAt":  "2026-11-27 15:45:16",
     "capturedDow":  "Friday",
     "cds":  [
                 {
                     "key":  "CDS_US",
                     "current":  34.9,
                     "wow":  -0.4,
-                    "mom":  0.8,
+                    "mom":  0,
                     "ytd":  8.4,
                     "type":  "bp_abs",
-                    "asOf":  "2026-11-26",
+                    "asOf":  "2026-11-27",
                     "ok":  true,
                     "source":  "wgb"
                 },
                 {
                     "key":  "CDS_CN",
-                    "current":  34.32,
-                    "wow":  0.3,
-                    "mom":  -4.8,
-                    "ytd":  -9.2,
+                    "current":  34.47,
+                    "wow":  0.7,
+                    "mom":  -4.5,
+                    "ytd":  -9,
                     "type":  "bp_abs",
-                    "asOf":  "2026-11-26",
+                    "asOf":  "2026-11-27",
                     "ok":  true,
                     "source":  "wgb"
                 }
